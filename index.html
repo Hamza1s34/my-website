@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamza Shah - Python Developer & AI Specialist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="stars-container"></div>
+    
+        
+    </div>
+    <nav>
+        <div class="logo">Hamza Shah</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="btn btn-outline">Home</a></li>
+            <li><a href="#about" class="btn btn-outline">About</a></li>
+            <li><a href="#services" class="btn btn-outline">Services</a></li>
+            <li><a href="#portfolio" class="btn btn-outline">Portfolio</a></li>
+            <li><a href="#contact" class="btn btn-outline">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-container">
+        <div class="hero-text">
+            <span class="intro-text">Hi, I'm</span>
+            <h1>Hamza Shah</h1>
+            <h2>Python Developer & AI Specialist</h2>
+            <p>Transforming ideas into intelligent solutions</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToContact()">Hire Me</button>
+
+                <button class="btn btn-glow" onclick="downloadCV()">Download CV</button>
+
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="quantum-sphere">
+                <div class="qubit-rings"></div>
+                <div class="energy-core"></div>
+                <div class="data-orbit"></div>
+            </div>
+        </div>
+        
+        
+</section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        
+        <div class="about-content">
+            <div class="about-text">
+                <p class="intro-paragraph">
+                    I am Hamza Shah, ICS enthusiast, student of Islamabad but from Mansehra. I'd say that whatever is happening these days, I am an active freelancer and offer a set of services to the clients. From web development and software development to multiple programming languages-such as Python and Java and JavaScript and C++, all fields I am active in. This allowed the development of a reliable foundation, both for frontend and backend segments, for developing complete applications friendly to end users. In it, I am capable of debugging complex codes, working on logical challenges, and implementing advanced algorithms in creating efficient solutions.
+
+Aside from the above, I am heavily inclined towards machine learning and artificial intelligence, proving data-driven to deliver solutions to a wide range of real-world problems. My knowledge in these areas allows me to work on cutting-edge AI projects as well as craft intelligent solutions adding significant value to clients' projects.
+
+Apart from these, I have followed a module on cryptography and quantum computing – topics that I feel are challenging and of immense interest. Currently, I am experimenting with IBM quantum computers to push the limits of what is possible in cryptographic security. My work here involves advanced techniques in wallet recovery for leading digital assets like Bitcoin and Ethereum, where I apply my understanding of cryptography to secure and restore access to critical financial information.
+
+I have experience in all the fields, and I work from 3 to 5 years, so all these give me the skill range, innovative approaches, and hands-on expertise for all projects undertaken. My aim is to provide not only working but forward-looking solutions that stay ahead in terms of technology and are always keen on trying out the next big thing. 
+                </p>
+    
+                <div class="experience-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">4+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                </div>
+    
+                <div class="skills-container">
+                    <div class="skill-card">
+                        <h3>AI/ML</h3>
+                        <div class="skill-progress"></div>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Quantum Computing</h3>
+                        <div class="skill-progress"></div>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Cryptography</h3>
+                        <div class="skill-progress"></div>
+                    </div>
+                    <!-- Add more skill cards -->
+                </div>
+            </div>
+    
+            <div class="profile-scene">
+                <div class="profile-container">
+                    <div class="ground-spotlight"></div>
+                    <div class="hologram-effect"></div>
+                    <div class="image-wrapper">
+                        <img src="[removal.ai]_b59df097-1e5c-4913-9511-32f6a25d3c04_clearoff[1].png" alt="Profile" id="profileImage">
+                        <div class="glow-overlay"></div>
+                    </div>
+                    <canvas id="particleCanvas"></canvas>
+                </div>
+            </div>
+            
+        </section>            
+    
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Services</h2>
+        <div class="services-grid">
+            <!-- Card 1 - AI/ML Solutions -->
+            <div class="service-card">
+                <i class="fas fa-robot"></i>
+                <h3>AI/ML Solutions</h3>
+                <p>Custom AI and machine learning solutions for your business needs</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-brain"></i> Machine Learning Models</li>
+                    <li><i class="fas fa-chart-line"></i> Predictive Analytics</li>
+                    <li><i class="fas fa-cogs"></i> Process Automation</li>
+                    <li><i class="fas fa-database"></i> Data Processing</li>
+                </ul>
+                <div class="tech-stack">
+                    <span><i class="fab fa-python"></i></span>
+                    <span><i class="fas fa-cube"></i></span>
+                    <span><i class="fab fa-tensorflow"></i></span>
+                </div>
+                <button class="btn btn-ripple">Explore AI Solutions</button>
+            </div>
+    
+            <!-- Card 2 - Software Development -->
+            <div class="service-card">
+                <i class="fas fa-code"></i>
+                <h3>Software Development</h3>
+                <p>Complex algorithm implementation and problem-solving</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-file-code"></i> Custom Software</li>
+                    <li><i class="fas fa-bug"></i> Debug & Optimization</li>
+                    <li><i class="fas fa-code-branch"></i> Algorithm Design</li>
+                    <li><i class="fas fa-terminal"></i> System Architecture</li>
+                </ul>
+                <div class="tech-stack">
+                    <span><i class="fab fa-java"></i></span>
+                    <span><i class="fab fa-python"></i></span>
+                    <span><i class="fab fa-cpp"></i></span>
+                </div>
+                <button class="btn btn-ripple">Start Development</button>
+            </div>
+    
+            <!-- Card 3 - Cryptography -->
+            <div class="service-card">
+                <i class="fas fa-lock"></i>
+                <h3>Cryptography</h3>
+                <p>Secure systems and encryption solutions</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-shield-alt"></i> Encryption Systems</li>
+                    <li><i class="fas fa-key"></i> Key Management</li>
+                    <li><i class="fas fa-user-shield"></i> Security Protocols</li>
+                    <li><i class="fas fa-lock"></i> Access Control</li>
+                </ul>
+                <div class="tech-stack">
+                    <span><i class="fas fa-shield-alt"></i></span>
+                    <span><i class="fas fa-key"></i></span>
+                    <span><i class="fas fa-lock"></i></span>
+                </div>
+                <button class="btn btn-ripple">Secure Your System</button>
+            </div>
+    
+            <!-- Card 4 - Quantum Computing -->
+            <div class="service-card">
+                <i class="fas fa-atom"></i>
+                <h3>Quantum Computing</h3>
+                <p>Next-generation quantum computing applications</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-microchip"></i> Quantum Algorithms</li>
+                    <li><i class="fas fa-project-diagram"></i> Circuit Design</li>
+                    <li><i class="fas fa-calculator"></i> Quantum Simulation</li>
+                    <li><i class="fas fa-atom"></i> Q-bit Operations</li>
+                </ul>
+                <div class="tech-stack">
+                    <span><i class="fas fa-atom"></i></span>
+                    <span><i class="fas fa-microchip"></i></span>
+                    <span><i class="fas fa-code"></i></span>
+                </div>
+                <button class="btn btn-ripple">Explore Quantum</button>
+            </div>
+    
+            <!-- Card 5 - Crypto Wallet Recovery -->
+            <div class="service-card">
+                <i class="fas fa-wallet"></i>
+                <h3>Crypto Wallet Recovery</h3>
+                <p>Expert recovery services for Bitcoin, Ethereum, and other cryptocurrency wallets</p>
+                <ul class="service-features">
+                    <li><i class="fab fa-bitcoin"></i> Bitcoin Recovery</li>
+                    <li><i class="fab fa-ethereum"></i> Ethereum Recovery</li>
+                    <li><i class="fas fa-key"></i> Private Key Restoration</li>
+                    <li><i class="fas fa-shield-alt"></i> Secure Recovery Process</li>
+                </ul>
+                <div class="tech-stack">
+                    <span><i class="fab fa-bitcoin"></i></span>
+                    <span><i class="fab fa-ethereum"></i></span>
+                    <span><i class="fas fa-key"></i></span>
+                </div>
+                <button class="btn btn-ripple">Get Recovery Help</button>
+            </div>
+    
+            <!-- Card 6 - Full Stack Development -->
+            <div class="service-card">
+                <i class="fas fa-code"></i>
+                <h3>Full Stack Development</h3>
+                <p>Professional web development services with cutting-edge technologies</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-laptop-code"></i> Frontend Development</li>
+                    <li><i class="fas fa-server"></i> Backend Development</li>
+                    <li><i class="fas fa-database"></i> Database Integration</li>
+                    <li><i class="fas fa-mobile-alt"></i> Responsive Design</li>
+                </ul>
+                <div class="tech-stack">
+                    <span><i class="fab fa-react"></i></span>
+                    <span><i class="fab fa-node"></i></span>
+                    <span><i class="fab fa-js"></i></span>
+                </div>
+                <button class="btn btn-ripple">Start Project</button>
+            </div>
+        </div>
+    </section>
+    <!-- Add this HTML after your services section -->
+<div class="modal" id="serviceModal">
+    <div class="modal-content">
+        <button class="close-modal">&times;</button>
+        <div class="modal-header">
+            <h3 id="modalTitle">Service Request Form</h3>
+        </div>
+        <form class="modal-form" id="serviceForm">
+            <div class="form-group">
+                <label for="serviceFormName">Full Name</label>
+                <input type="text" id="serviceFormName" required>
+            </div>
+            <div class="form-group">
+                <label for="serviceFormEmail">Email Address</label>
+                <input type="email" id="serviceFormEmail" required>
+            </div>
+            <div class="form-group">
+                <label for="projectType">Project Type</label>
+                <select id="projectType" required>
+                    <!-- Options will be populated by JavaScript -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="timeline">What is your expected timeline for this project?</label>
+                <select id="timeline" required>
+                    <option value="undecided">I haven’t decided yet</option>
+                    <option value="short">I’d like it done as soon as possible</option>
+                    <option value="flexible">I’m flexible with the timeline</option>
+                    <option value="long">I’m looking at a longer-term project</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="description">Project Description</label>
+                <textarea id="description" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="budget">What is your budget for this project?</label>
+                <select id="budget" required>
+                    <option value="unspecified">I haven’t decided yet</option>
+                    <option value="small">I’m working with a limited budget</option>
+                    <option value="medium">I have a moderate budget</option>
+                    <option value="large">I’m flexible with the budget</option>
+                </select>
+            </div>
+            
+            <button type="submit" class="btn btn-ripple">Submit Request</button>
+        </form>
+    </div>
+</div>
+
+    
+<section id="portfolio" class="portfolio">
+    <h2>Portfolio</h2>
+    
+    <div class="portfolio-container">
+        <!-- Left Large Screen -->
+        <div class="side-screen left-screen">
+            <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995" alt="AI Project">
+            <div class="screen-overlay">
+                <h3>AI Project</h3>
+                <p>Machine Learning Solution</p>
+                <button class="btn-glow" onclick="toggleDetails('ai')">Details</button>
+            </div>
+        </div>
+
+        <!-- Center Gallery -->
+        <div class="center-gallery">
+            <div class="gallery-container">
+                <div class="gallery-item active">
+                    <img src="Post-Quantum-Cryptography-1024x585.png" alt="Cryptography">
+                    <div class="item-overlay">
+                        <h3>Cryptography</h3>
+                        <button class="btn-glow" onclick="toggleDetails('crypto')">Details</button>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="hero-heading.jpg" alt="Quantum">
+                    <div class="item-overlay">
+                        <h3>Quantum Computing</h3>
+                        <button class="btn-glow" onclick="toggleDetails('quantum')">Details</button>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="elliptic-curve-cryptography-diagram.png" alt="Wallet">
+                    <div class="item-overlay">
+                        <h3>Wallet Recovery</h3>
+                        <button class="btn-glow" onclick="toggleDetails('wallet')">Details</button>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="web-development.webp" alt="Full Stack">
+                    <div class="item-overlay">
+                        <h3>Full Stack</h3>
+                        <button class="btn-glow" onclick="toggleDetails('fullstack')">Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-controls">
+                <button onclick="rotateGallery('prev')" class="control-btn prev">←</button>
+                <button onclick="rotateGallery('next')" class="control-btn next">→</button>
+            </div>
+        </div>
+
+        <!-- Right Large Screen -->
+        <div class="side-screen right-screen">
+            <img src="https://images.unsplash.com/photo-1623479322729-28b25c16b011" alt="Software Project">
+            <div class="screen-overlay">
+                <h3>Enterprise Software</h3>
+                <p>Scalable Solutions</p>
+                <button class="btn-glow" onclick="toggleDetails('software')">Details</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Details Sections -->
+
+
+    <!-- AI Project Details (Your existing one) -->
+<div id="ai-details" class="project-details">
+    <div class="details-content">
+        <span class="close-btn" onclick="toggleDetails('ai')">&times;</span>
+        <h3>AI Project Details</h3>
+        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995" alt="AI Project" class="floating-image">
+        <p>I have a solid foundation in artificial intelligence, having worked on several impactful AI projects. One of my key projects involved developing and training custom chatbot models to provide dynamic, context-aware responses. I trained these models locally, allowing me to optimize performance and adapt them to specific use cases.</p>
+        <p>Another innovative project was creating an AI computer manager—an intelligent assistant that automates tasks and manages system functions, enhancing productivity and user control. My experience in working with AI models locally has given me hands-on knowledge of AI deployment and management on personal systems, showcasing my ability to create versatile, AI-driven solutions.</p>
+    </div>
+</div>
+
+<!-- Software Development Details -->
+<div id="software-details" class="project-details">
+    <div class="details-content">
+        <span class="close-btn" onclick="toggleDetails('software')">&times;</span>
+        <h3>Software Development Excellence</h3>
+        <img src="https://images.unsplash.com/photo-1623479322729-28b25c16b011" alt="Software Development" class="floating-image">
+        <p>As a seasoned software developer, I am skilled in creating custom software solutions that tackle complex computational challenges with a focus on efficiency, scalability, and precision. I work extensively with Python, Java, and C++, implementing advanced algorithms and system architecture designs to build applications that meet specific project requirements.</p>
+        <p>My approach to software development goes beyond coding; I emphasize debugging, optimization, and algorithm design to achieve top-tier performance. For instance, when implementing complex data processing solutions, I utilize techniques like dynamic programming, divide-and-conquer strategies, and algorithmic efficiency analysis to ensure optimal speed and resource utilization.</p>
+    </div>
+</div>
+
+<!-- Cryptography Details -->
+<div id="crypto-details" class="project-details">
+    <div class="details-content">
+        <span class="close-btn" onclick="toggleDetails('crypto')">&times;</span>
+        <h3>Advanced Cryptography Systems</h3>
+        <img src="https://images.unsplash.com/photo-1639322537228-f710d846310a" alt="Cryptography" class="floating-image">
+        <p>In the field of cryptography, I bring comprehensive expertise in designing, implementing, and managing secure systems and encryption protocols. I have a deep understanding of RSA and Elliptic Curve Cryptography (ECC), with specific expertise in quantum-resistant cryptography and lattice-based cryptographic techniques.</p>
+        <p>I am proficient in BIP39, allowing me to create and manage secure mnemonic phrases for wallet recovery. With my knowledge of cryptographic principles, I am able to implement security protocols for both local and networked systems, ensuring data protection and integrity.</p>
+    </div>
+</div>
+
+<!-- Quantum Computing Details -->
+<div id="quantum-details" class="project-details">
+    <div class="details-content">
+        <span class="close-btn" onclick="toggleDetails('quantum')">&times;</span>
+        <h3>Quantum Computing Innovation</h3>
+        <img src="3-s2.0-B9780128229422000091-f13-06-9780128229422.jpg" alt="Quantum Computing" class="floating-image">
+        <p>I have hands-on experience in quantum computing, specifically working with IBM's powerful quantum computers, including Sherbrook (127 qubits), Kyiv (127 qubits), and Brisbane (127 qubits). My expertise includes the development and execution of quantum circuits for solving complex problems that are infeasible for classical computers.</p>
+        <p>One of my notable projects involved implementing Shor's algorithm on IBM's quantum systems to factorize large numbers, a key application in cryptography. This experience allows me to contribute to advancements in quantum-resistant encryption by developing methods that protect against future quantum threats.</p>
+    </div>
+</div>
+
+<!-- Wallet Recovery Details -->
+<div id="wallet-details" class="project-details">
+    <div class="details-content">
+        <span class="close-btn" onclick="toggleDetails('wallet')">&times;</span>
+        <h3>Crypto Wallet Recovery Services</h3>
+        <img src="Secp256k1.png" alt="Wallet Recovery" class="floating-image">
+        <p>With extensive experience in blockchain and cryptocurrency, I offer expert crypto wallet recovery services that include securing lost or inaccessible wallets. I specialize in Bitcoin and Ethereum wallet recovery, leveraging my deep understanding of secp256k1 and BIP39 mnemonic codes to maximize the success of recovery efforts.</p>
+        <p>My method is both secure and efficient: I use private key restoration strategies and follow strict security protocols to ensure that client data remains confidential throughout the process. Whether working with Bitcoin, Ethereum, or other cryptocurrencies, I employ advanced recovery methods to assist clients in retrieving their digital assets.</p>
+    </div>
+</div>
+
+<!-- Full Stack Details -->
+<div id="fullstack-details" class="project-details">
+    <div class="details-content">
+        <span class="close-btn" onclick="toggleDetails('fullstack')">&times;</span>
+        <h3>Full Stack Development</h3>
+        <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479" alt="Full Stack Development" class="floating-image">
+        <p>As a full-stack developer, I provide end-to-end web development services that cover both frontend and backend requirements. I am skilled in React for frontend development, creating interactive, responsive interfaces that enhance user experience, and Node.js for backend development, allowing me to build scalable server-side applications.</p>
+        <p>My full-stack projects are meticulously designed for functionality and responsiveness, incorporating best practices in web security and UX/UI design. This very website you're viewing serves as a live demonstration of my full-stack expertise, where I implemented a seamless, user-friendly interface that reflects my ability to deliver polished and reliable web solutions.</p>
+    </div>
+</div>
+    </section>
+    
+    <!-- Expertise Section -->
+    <section id="expertise" class="expertise">
+        <h2>Technical Expertise</h2>
+        <div class="expertise-container">
+            <!-- Programming Languages -->
+            <div class="skill-group">
+                <div class="skill-bar-wrapper">
+                    <div class="skill-info">
+                        <div class="skill-title">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="skill-icon">
+                            <span class="skill-name">Python</span>
+                        </div>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="90"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-bar-wrapper">
+                    <div class="skill-info">
+                        <div class="skill-title">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" class="skill-icon">
+                            <span class="skill-name">Java</span>
+                        </div>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="75"></div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Development -->
+            <div class="skill-group">
+                <div class="skill-bar-wrapper">
+                    <div class="skill-info">
+                        <div class="skill-title">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" class="skill-icon">
+                            <span class="skill-name">C++</span>
+                        </div>
+                        <span class="skill-percentage">60%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="60"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-bar-wrapper">
+                    <div class="skill-info">
+                        <div class="skill-title">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="AI/ML" class="skill-icon">
+                            <span class="skill-name">AI/ML</span>
+                        </div>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="80"></div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Advanced Tech -->
+            <div class="skill-group">
+                <div class="skill-bar-wrapper">
+                    <div class="skill-info">
+                        <div class="skill-title">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/atom/atom-original.svg" alt="Quantum" class="skill-icon">
+                            <span class="skill-name">Quantum Computing</span>
+                        </div>
+                        <span class="skill-percentage">50%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="50"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-bar-wrapper">
+                    <div class="skill-info">
+                        <div class="skill-title">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2889/2889676.png" alt="Cryptography" class="skill-icon">
+                            <span class="skill-name">Cryptography</span>
+                        </div>
+                        <span class="skill-percentage">60%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="60"></div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Web Development -->
+            <div class="skill-group">
+                <div class="skill-bar-wrapper">
+                    <div class="skill-info">
+                        <div class="skill-title">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="Frontend" class="skill-icon">
+                            <span class="skill-name">Frontend Development</span>
+                        </div>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="95"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-bar-wrapper">
+                    <div class="skill-info">
+                        <div class="skill-title">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="Backend" class="skill-icon">
+                            <span class="skill-name">Backend Development</span>
+                        </div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="85"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <div class="form-wrapper">
+                <!-- Added novalidate to handle validation with JS -->
+                <form class="contact-form" id="contactForm" action="#" method="POST" novalidate>
+                    <div class="input-group">
+                        <input 
+                            type="text" 
+                            name="name" 
+                            id="name" 
+                            placeholder="Your Name" 
+                            required
+                            tabindex="1"
+                            class="form-input"
+                        >
+                    </div>
+    
+                    <div class="input-group">
+                        <input 
+                            type="email" 
+                            name="email" 
+                            id="email" 
+                            placeholder="Your Email" 
+                            required
+                            tabindex="2"
+                            class="form-input"
+                        >
+                    </div>
+    
+                    <div class="input-group">
+                        <textarea 
+                            name="message" 
+                            id="message" 
+                            placeholder="Your Message" 
+                            required
+                            tabindex="3"
+                            class="form-input"
+                            rows="5"
+                        ></textarea>
+                    </div>
+    
+                    <button type="submit" class="btn btn-3d" tabindex="4">Send Message</button>
+                </form>
+            </div>
+    
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>hs.456.king@gmail.com</p>
+                    <button type="button" class="btn btn-outline copy-email-btn" tabindex="5">Copy Email</button>
+                </div>
+    
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+92 319 5787106</p>
+                    <button type="button" class="btn btn-outline" tabindex="6">Call Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Hamza Shah. All rights reserved.</p>
+        <div class="social-links">
+            <button class="btn btn-outline"><i class="fab fa-github"></i></button>
+            <button class="btn btn-outline"><i class="fab fa-linkedin"></i></button>
+            <button class="btn btn-outline"><i class="fab fa-twitter"></i></button>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="config.js"></script>
+    <script src="script.js"></script>  
+</body>
+</html>
